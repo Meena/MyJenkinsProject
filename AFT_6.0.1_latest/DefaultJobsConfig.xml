@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<jobsconfig xmlns="http://tempuri.org/JobsConfig.xsd">
+    <timeout value="1800000" />
+    <timerdelay value="60000" />
+    <locations>
+        <location name="default-archive" 
+			dir="c:\Program Files\VSoft\Automatic File Transfer Service\archive" 
+			connection="default-local-conn" />
+        <location name="default-duplicates" 
+			dir="c:\Program Files\VSoft\Automatic File Transfer Service\duplicates" 
+			connection="default-local-conn" />
+    </locations>
+    <connections>
+        <connection name="default-local-conn" type="LOCAL" commandTimeOut="-1"/>
+    </connections>
+    <archive location="default-archive" />
+    <duplicates location="default-duplicates" />
+    <jobs>
+    </jobs>
+</jobsconfig>

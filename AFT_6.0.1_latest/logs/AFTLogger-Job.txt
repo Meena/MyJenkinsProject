@@ -1,0 +1,4 @@
+[Header]\r\n2015-06-22 04:19:31,678 [4] INFO   - [com.vsoftcorp.filestransfer.FileTransferApplicationMain] AFT VERSION: 6.0.1.0
+2015-06-22 04:19:31,767 [4] INFO   - [com.vsoftcorp.filestransfer.FileTransferApplicationMain] Config file : D:\AFT\JobsConfig.xml not found.
+2015-06-22 04:19:31,767 [4] INFO   - [com.vsoftcorp.filestransfer.FileTransferApplicationMain] Using config file : D:\AFT\DefaultJobsConfig.xml.
+[Footer]\r\n
